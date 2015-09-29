@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
 				"lis",
 				"list-style"
 			],
@@ -14,10 +22,6 @@
 			[
 				"bor",
 				"border-color"
-			],
-			[
-				"di",
-				"div	Tag"
 			],
 			[
 				"al",
@@ -183,7 +187,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4285,
+				"buffer_size": 5519,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +195,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 649,
+				"buffer_size": 772,
 				"line_ending": "Windows"
 			}
 		}
@@ -380,7 +384,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -389,15 +393,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4285,
+						"buffer_size": 5519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4257,
-								4257
+								3058,
+								3058
 							]
 						],
 						"settings":
@@ -407,10 +411,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1062.0,
+						"translation.y": 754.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -419,15 +423,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 649,
+						"buffer_size": 772,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								649,
-								649
+								528,
+								528
 							]
 						],
 						"settings":
@@ -435,11 +439,11 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 234.0,
+						"translation.x": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

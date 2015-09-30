@@ -187,7 +187,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5519,
+				"buffer_size": 5688,
 				"line_ending": "Windows"
 			}
 		},
@@ -393,15 +393,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5519,
+						"buffer_size": 5688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3058,
-								3058
+								1449,
+								1449
 							]
 						],
 						"settings":
@@ -411,7 +411,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 754.0,
+						"translation.y": 546.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -430,8 +430,8 @@
 						"selection":
 						[
 							[
-								528,
-								528
+								585,
+								620
 							]
 						],
 						"settings":
@@ -440,7 +440,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

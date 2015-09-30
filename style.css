@@ -36,14 +36,11 @@ body {
 	text-align: right; 
 	font-weight: bold; 
 }
+.list-inline a {
+	color: #38a4ab; 
+}
 .footer { 
 	background: #242d3c; 
 	color: #eee; 
 	padding: 30px 0 20px 0; 
 }
-/*#header { 
-	margin-top: 50px;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	background-color: #eee; 
-}*/

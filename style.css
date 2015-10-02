@@ -14,6 +14,13 @@ body {
  height: 70px;
  margin-right: 15px;
 }
+.badge {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 1;
+	margin-top: 0;
+}
 .footer {
 	clear: both;
 	padding: 10px;

@@ -187,7 +187,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5940,
+				"buffer_size": 6384,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,8 +195,16 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 686,
+				"buffer_size": 776,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 147430,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -236,9 +244,10 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/blog/about-me.html",
-		"/C/xampp/htdocs/blog/style.css",
+		"/C/xampp/htdocs/blog/.gitignore",
 		"/C/xampp/htdocs/blog/index.html",
+		"/C/xampp/htdocs/blog/style.css",
+		"/C/xampp/htdocs/blog/about-me.html",
 		"/C/xampp/htdocs/blog/.htaccess",
 		"/C/xampp/htdocs/blog/blog.sublime-workspace",
 		"/C/xampp/htdocs/inetku/index.html",
@@ -319,6 +328,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-md-6",
 			"footer",
 			"source",
 			"col-md",
@@ -393,15 +403,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5940,
+						"buffer_size": 6384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3752,
-								3752
+								892,
+								892
 							]
 						],
 						"settings":
@@ -411,7 +421,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1007.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -423,15 +433,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 686,
+						"buffer_size": 776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								686,
-								686
+								763,
+								763
 							]
 						],
 						"settings":
@@ -440,10 +450,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 318.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62108,
+								62130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 42232.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -5,7 +5,11 @@
 		[
 			[
 				"di",
-				"display"
+				"div	Tag"
+			],
+			[
+				"i",
+				"i	Tag"
 			],
 			[
 				"tex",
@@ -168,10 +172,6 @@
 				"number"
 			],
 			[
-				"i",
-				"id	Attr"
-			],
-			[
 				"a",
 				"action	Attr"
 			],
@@ -187,7 +187,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6384,
+				"buffer_size": 6334,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,12 +215,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 311.0,
+		"last_filter": "inst",
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -244,6 +248,8 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/xampp/htdocs/blog/.gitignore",
 		"/C/xampp/htdocs/blog/index.html",
 		"/C/xampp/htdocs/blog/style.css",
@@ -328,6 +334,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"clear",
+			"well",
 			"col-md-6",
 			"footer",
 			"source",
@@ -403,15 +411,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6384,
+						"buffer_size": 6334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								892,
-								892
+								3863,
+								3863
 							]
 						],
 						"settings":
@@ -421,7 +429,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 253.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -453,7 +461,7 @@
 						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -469,8 +477,8 @@
 						"selection":
 						[
 							[
-								62108,
-								62130
+								141958,
+								141963
 							]
 						],
 						"settings":
@@ -480,10 +488,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 42232.0,
+						"translation.y": 84378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

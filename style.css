@@ -1,6 +1,15 @@
 body {
 	font-family: 'Oswald', sans-serif;
+	/*background-color: #009688;*/
 }
+/*.loading {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}*/
 .content {
 	padding: 20px;
 	border-color: #242d3c;
@@ -9,10 +18,22 @@ body {
 	text-transform: uppercase;
 }
 #avatar {
- float: left;
- width: 70px;
- height: 70px;
- margin-right: 15px;
+	 float: left;
+	 width: 70px;
+	 height: 70px;
+	 margin-right: 15px;
+}
+/* .page-header {
+	 position: fixed;
+	 left: 0px;
+	 top: 0px;
+	 width: 100%;
+	 height: 100%;
+	 z-index: 9999;
+} */
+.row {
+	text-align: center;
+	background-color: 
 }
 .badge {
 	position: absolute;

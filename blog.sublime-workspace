@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
 				"di",
 				"div	Tag"
 			],
@@ -30,10 +46,6 @@
 			[
 				"al",
 				"align	Attr"
-			],
-			[
-				"li",
-				"list-style"
 			],
 			[
 				"te",
@@ -88,16 +100,8 @@
 				"inline-block"
 			],
 			[
-				"ma",
-				"margin-right"
-			],
-			[
 				"WI",
 				"width"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"font",
@@ -187,7 +191,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6334,
+				"buffer_size": 7726,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +199,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 776,
+				"buffer_size": 1457,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,22 +219,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 311.0,
-		"last_filter": "inst",
+		"height": 242.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 232.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 119.0,
 		"history":
 		[
+			"ls",
+			"dir",
+			"python"
 		]
 	},
 	"distraction_free":
@@ -244,13 +255,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/blog"
+		"/C/xampp/htdocs/blog",
+		"/C/xampp/htdocs/blog/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Andre Christoga/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/blog/css/bootstrap.css",
+		"/C/xampp/htdocs/blog/.gitignore",
 		"/C/xampp/apache/conf/httpd.conf",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/blog/.gitignore",
 		"/C/xampp/htdocs/blog/index.html",
 		"/C/xampp/htdocs/blog/style.css",
 		"/C/xampp/htdocs/blog/about-me.html",
@@ -260,7 +274,6 @@
 		"/C/Users/Andre Christoga/Documents/java/stupever/src/com/andrechristoga/stupever/Stupever.java",
 		"/C/Users/Andre Christoga/Documents/java/hello-me/src/com/andrechristoga/hellome/HelloMe.java",
 		"/C/xampp/htdocs/mercysmart/index.html",
-		"/C/xampp/htdocs/blog/css/bootstrap.css",
 		"/C/xampp/htdocs/mercysmart/images/hackathonistana.jpg",
 		"/C/xampp/htdocs/mercysmart/contact.html",
 		"/C/xampp/htdocs/christotrap/about.html",
@@ -320,7 +333,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -334,6 +347,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"col-md-6",
+			"pulse",
+			"spin",
+			"medium",
+			"css",
+			"html5",
+			"fa-",
 			"clear",
 			"well",
 			"col-md-6",
@@ -411,15 +432,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6334,
+						"buffer_size": 7726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3863,
-								3863
+								4022,
+								4022
 							]
 						],
 						"settings":
@@ -429,27 +450,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 253.0,
+						"translation.y": 2431.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
 					"file": "style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 776,
+						"buffer_size": 1457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								763,
-								763
+								414,
+								397
 							]
 						],
 						"settings":
@@ -458,12 +485,18 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 2,
 					"file": "css/bootstrap.css",
@@ -477,8 +510,8 @@
 						"selection":
 						[
 							[
-								141958,
-								141963
+								128192,
+								128192
 							]
 						],
 						"settings":
@@ -487,11 +520,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 84378.0,
+						"translation.x": 6.0,
+						"translation.y": 75892.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -514,11 +547,25 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
@@ -578,7 +625,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

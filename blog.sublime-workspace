@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"ow",
+				"owl-carousel"
+			],
+			[
 				"ma",
-				"margin"
+				"margin-right"
+			],
+			[
+				"a",
+				"a	<a>"
 			],
 			[
 				"mar",
@@ -176,10 +184,6 @@
 				"number"
 			],
 			[
-				"a",
-				"action	Attr"
-			],
-			[
 				"list-s",
 				"list-style-position"
 			]
@@ -191,7 +195,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7726,
+				"buffer_size": 8074,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,16 +203,8 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1457,
+				"buffer_size": 2507,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 147430,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -255,13 +251,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/blog",
-		"/C/xampp/htdocs/blog/css"
+		"/C/xampp/htdocs/blog"
 	],
 	"file_history":
 	[
-		"/C/Users/Andre Christoga/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/xampp/htdocs/blog/css/bootstrap.css",
+		"/C/xampp/htdocs/blog/LICENSE",
+		"/C/Users/Andre Christoga/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/xampp/htdocs/blog/.gitignore",
 		"/C/xampp/apache/conf/httpd.conf",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -347,6 +343,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-sm-4",
+			"circle",
+			"btn-circle",
 			">\n",
 			"col-md-6",
 			"pulse",
@@ -432,15 +431,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7726,
+						"buffer_size": 8074,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4022,
-								4022
+								1444,
+								1444
 							]
 						],
 						"settings":
@@ -450,10 +449,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2431.0,
+						"translation.y": 1716.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -468,15 +467,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1457,
+						"buffer_size": 2507,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								414,
-								397
+								2507,
+								2507
 							]
 						],
 						"settings":
@@ -485,46 +484,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1241.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "css/bootstrap.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 147430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128192,
-								128192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 6.0,
-						"translation.y": 75892.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -553,19 +516,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -625,7 +581,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

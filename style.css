@@ -82,6 +82,9 @@ body {
 	 height: 100%;
 	 z-index: 9999;
 } */
+p.footer {
+	display: inline-block;
+}
 .row {
 	text-align: center;
 	background-color: 

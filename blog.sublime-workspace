@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sty",
+				"style	Attr"
+			],
+			[
 				"ow",
 				"owl-carousel"
 			],
@@ -195,7 +199,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8074,
+				"buffer_size": 8951,
 				"line_ending": "Windows"
 			}
 		},
@@ -203,7 +207,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 2507,
+				"buffer_size": 2854,
 				"line_ending": "Windows"
 			}
 		}
@@ -431,15 +435,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8074,
+						"buffer_size": 8951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1444,
-								1444
+								1657,
+								1657
 							]
 						],
 						"settings":
@@ -449,10 +453,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1716.0,
+						"translation.y": 426.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -467,15 +471,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2507,
+						"buffer_size": 2854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2507,
-								2507
+								238,
+								238
 							]
 						],
 						"settings":
@@ -483,11 +487,11 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1241.0,
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -581,7 +585,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

@@ -12,6 +12,13 @@ body {
 	height: 100%;
 	z-index: 9999;
 }*/
+/*.btn-info {
+	background-color: #D32F2F;
+	border: 4px solid #D32F2F;
+}*/
+.red {
+	color: #D32F2F;
+}
 .col-md-6 {
 	padding: 20px;
 	min-height: 20px;
@@ -91,7 +98,7 @@ p.footer {
 }
 #about-me i.fa{
 	font-size: 40px;
-    border: 4px solid #448AFF;
+    border: 4px solid #D32F2F;
     width: 100px;
     height: 100px;
     padding: 27px 25px;
@@ -100,7 +107,7 @@ p.footer {
     transition: all 0.5s;
 }
 #about-me .service:hover>i.fa{
-  background: #448AFF;
+  background: #D32F2F;
   color: #ffffff;
 }
 .badge {

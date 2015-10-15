@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
 				"sty",
 				"style	Attr"
 			],
@@ -94,10 +102,6 @@
 			[
 				"fony",
 				"font-family"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"head",
@@ -196,18 +200,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 8951,
+				"buffer_size": 3335,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2854,
+				"buffer_size": 9384,
 				"line_ending": "Windows"
 			}
 		}
@@ -255,18 +259,19 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/blog"
+		"/C/xampp/htdocs/blog",
+		"/C/xampp/htdocs/blog/img"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/blog/index.html",
+		"/C/xampp/htdocs/blog/style.css",
 		"/C/xampp/htdocs/blog/css/bootstrap.css",
 		"/C/xampp/htdocs/blog/LICENSE",
 		"/C/Users/Andre Christoga/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/xampp/htdocs/blog/.gitignore",
 		"/C/xampp/apache/conf/httpd.conf",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/blog/index.html",
-		"/C/xampp/htdocs/blog/style.css",
 		"/C/xampp/htdocs/blog/about-me.html",
 		"/C/xampp/htdocs/blog/.htaccess",
 		"/C/xampp/htdocs/blog/blog.sublime-workspace",
@@ -333,7 +338,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -347,6 +352,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hero-unit",
+			"source",
+			"info",
 			"col-sm-4",
 			"circle",
 			"btn-circle",
@@ -426,69 +434,64 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8951,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1657,
-								1657
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 426.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
 					"file": "style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2854,
+						"buffer_size": 3335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								238,
-								238
+								798,
+								798
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 309.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1800,
+								1800
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 361.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -514,18 +517,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -585,7 +581,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

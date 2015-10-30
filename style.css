@@ -19,6 +19,9 @@ body {
 .red {
 	color: #D32F2F;
 }
+.blue {
+    color: #5bc0de;
+}
 .col-md-6 {
 	padding: 20px;
 	min-height: 20px;
@@ -34,6 +37,7 @@ body {
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
+/* Header */
 .header { 
 	background-color: #38a4ab;
 	background-size: 45%; 
@@ -68,6 +72,7 @@ body {
 .col-md-6 h3 {
 	text-transform: uppercase;
 }
+/* Images */
 .circle {
 	width: 70px;
     height: 70px;
@@ -127,6 +132,15 @@ p.footer {
 	text-align: center;
 	background-color: 
 }
+/* Social Media */
+.fa-facebook { color: #3b5998; }
+.fa-twitter { color: #00aced; }
+.fa-instagram { color: #9b6954; }
+.fa-google-plus { color: #dd4b39; }
+.fa-github { color: #212121; }
+.fa-slideshare { color: #000; }
+.fa-linkedin { color: #007bb5; }
+/* About Me */
 #about-me i.fa{
 	font-size: 40px;
     border: 4px solid #D32F2F;

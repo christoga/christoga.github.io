@@ -40,6 +40,11 @@ body {
 	padding: 50px 0px;
 	min-height: 200px;
 }
+.jumbotron {
+	background-color:#fff;
+	text-align:center;
+	padding:50px;
+}
 .header h1, .header h2, .header h3 {
 	color: #eee;
 	text-transform: uppercase;

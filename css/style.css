@@ -2,7 +2,7 @@ body {
 	font-family: 'Questrial', sans-serif;
 }
 .blue {
-	color: #38a4ab;
+	color: #03A9F4;
 }
 .black {
     color: #424242;
@@ -12,7 +12,7 @@ body {
     color: #ffffff;
 }
 .container-fluid {
-  background: #38a4ab;
+  background: #03A9F4;
 	color: #eee;
 	padding: 20px;
 	margin-top: 40px;
@@ -32,7 +32,7 @@ body {
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 .header {
-	background-color: #38a4ab;
+	background-color: #03A9F4;
 	background-size: 45%;
 	width: 100%;
   height: 300px;
@@ -104,7 +104,7 @@ p.footer {
 }
 #about-me i.fa{
 	font-size: 40px;
-    border: 4px solid #38a4ab;
+    border: 4px solid #03A9F4;
     width: 100px;
     height: 100px;
     padding: 27px 25px;
@@ -113,12 +113,12 @@ p.footer {
     transition: all 0.5s;
 }
 #about-me .service:hover>i.fa{
-  background: #38a4ab;
+  background: #03A9F4;
   color: #ffffff;
 }
 .badge {
 	position: absolute;
-	background-color: #38a4ab;
+	background-color: #03A9F4;
 	top: 30px;
 	right: 30px;
 	z-index: 1;
@@ -129,7 +129,7 @@ p.footer {
 	padding: 10px;
 }
 .warn {
-	background: #38a4ab;
+	background: #03A9F4;
 	color: #eee;
 	padding: 20px;
 	margin-top: 40px;
@@ -146,7 +146,7 @@ p.footer {
 	font-weight: bold;
 }
 .list-inline a {
-	color: #38a4ab;
+	color: #03A9F4;
 }
 .footer {
 	background: #242d3c;

@@ -10,21 +10,9 @@ body {
 @media only screen and (max-width: 1024px) and (min-width: 767px) {
   .hero-unit h1 { font-size: 48px; line-height: 42px;}
   .hero-unit {background-size: 50%; min-height: 280px;}
-  .hero-unit { 
-    -moz-transition    : all 0.25s linear;
-    -webkit-transition : all 0.25s linear;
-    -o-transition      : all 0.25s linear;
-    transition         : all 0.25s linear;
-  }
 
   .hero-unit.animReady { background-position: 100% 0%;}
 }
-.hero-unit { 
-    -moz-transition    : all 0.25s linear;
-    -webkit-transition : all 0.25s linear;
-    -o-transition      : all 0.25s linear;
-    transition         : all 0.25s linear;
-  }
   .hero-unit.animReady { background-position: 100% 0%;}
   .hero-unit { background: #38a4ab url(../img/techinasia.jpg) no-repeat 100% -600%; background-size: 400px; width: 100%; padding: 50px; min-height: 200px; color: #fff; height: 100%; background-position: center; height: 300px;}
 

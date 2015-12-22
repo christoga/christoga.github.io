@@ -4,9 +4,8 @@ body {
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .hero-unit { min-height: 440px; }
 }
-.hero-unit h1 { font-size: 32px; line-height: 32px; max-width: none; }.
+.hero-unit h1 { font-size: 48px; line-height: 48px; max-width: 400px; }.
 .hero-unit {background-size: 90%; text-align: center; background-position: bottom center; min-height: 330px; padding: 20px 0;}
-.hero-unit h1 { font-size: 48px; line-height: 48px; max-width: 400px;}
 .hero-unit {background-size: 40%; background-position: top right; min-height: 155px; padding: 20px 0;}
 @media only screen and (max-width: 1024px) and (min-width: 767px) {
   .hero-unit h1 { font-size: 48px; line-height: 42px;}
@@ -27,7 +26,7 @@ body {
     transition         : all 0.25s linear;
   }
   .hero-unit.animReady { background-position: 100% 0%;}
-  .hero-unit { background: #38a4ab url(../img/techinasia.jpg) no-repeat 100% -600%; background-size: 20%; width: 100%; padding: 50px; min-height: 200px; color: #fff; height: 100%; background-position: center;}
+  .hero-unit { background: #38a4ab url(../img/techinasia.jpg) no-repeat 100% -600%; background-size: 400px; width: 100%; padding: 50px; min-height: 200px; color: #fff; height: 100%; background-position: center; height: 300px;}
 
 .hero-unit h1, .hero-unit h2, .hero-unit h3 { color: #eee; text-transform: uppercase; font-weight: bold; }
 

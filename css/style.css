@@ -134,6 +134,9 @@ p.footer {
 	z-index: 1;
 	margin-top: 0;
 }
+.skills {
+	text-align: center;
+}
 .footer {
 	clear: both;
 	padding: 10px;

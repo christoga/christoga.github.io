@@ -136,6 +136,7 @@ p.footer {
 }
 .skills {
 	text-align: center;
+	display: block;
 }
 .footer {
 	clear: both;

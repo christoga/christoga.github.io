@@ -12,6 +12,14 @@ body {
 .blue {
 	color: #38a4ab;
 }
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
 .black {
     color: #424242;
 }

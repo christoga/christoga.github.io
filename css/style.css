@@ -12,11 +12,11 @@ body {
 .blue {
 	color: #38a4ab;
 }
-a {
+.hero-unit.a {
 	color: #fff;
 	text-decoration: none;
 }
-a:hover {
+.hero-unit.a:hover {
 	color: #fff;
 	text-decoration: none;
 }

@@ -4,7 +4,7 @@ body {
 .hero-unit h1 { font-size: 48px; line-height: 48px; max-width: 400px; }.
 .hero-unit {background-size: 90%; text-align: center; background-position: bottom center; min-height: 330px; padding: 20px 0;}
   /*.hero-unit.animReady { background-position: 100% 0%;}*/
-  .hero-unit { background: #38a4ab url(../img/techinasia.jpg) no-repeat 100% -600%; background-size: 400px; width: 100%; padding: 50px; min-height: 200px; color: #fff; height: 100%; background-position: right; height: 300px;}
+  .hero-unit { background: #38a4ab url(../img/techinasia.jpg) no-repeat 100% -600%; background-size: 440px; width: 100%; padding: 50px; min-height: 200px; color: #fff; height: 100%; background-position: right; height: 300px;}
 
 .hero-unit h1, .hero-unit h2, .hero-unit h3 { color: #eee; text-transform: uppercase; font-weight: bold; }
 

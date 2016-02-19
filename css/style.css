@@ -1,3 +1,6 @@
+body {
+	color: white;
+}
 .demo-layout-transparent {
   background: url('../img/material.jpg') center / cover;
 }

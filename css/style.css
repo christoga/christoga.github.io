@@ -1,6 +1,9 @@
 body {
 	color: white;
 }
+.header {
+	margin-top: 50px;		
+}
 .demo-layout-transparent {
   background: url('../img/material.jpg') center / cover;
 }

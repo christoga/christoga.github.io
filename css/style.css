@@ -4,17 +4,21 @@ body {
 .header {
 	margin-top: 50px;		
 }
-i.social {
-	margin-left: 150px;
-	margin-right: 150px;
-	display: inline-block;
-}
-.demo-layout-transparent {
+.demo-layout-transparent { 
   background: url('../img/material.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
+.demo-layout-transparent .mdl-layout__drawer-button {  
   color: white;
+}
+.repo.mdl-card {
+ margin-top: 50px; 
+}
+.repo > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../img/material.jpg') center / cover;
+}
+.repo > .mdl-card__menu {
+  color: #fff;
 }

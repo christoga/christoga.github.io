@@ -4,6 +4,11 @@ body {
 .header {
 	margin-top: 50px;		
 }
+i.social {
+	margin-left: 150px;
+	margin-right: 150px;
+	display: inline-block;
+}
 .demo-layout-transparent {
   background: url('../img/material.jpg') center / cover;
 }

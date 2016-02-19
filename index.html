@@ -1,241 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Andre, Christoga, Andre Christoga, andre christoga, blog, bootstrap">
-    <meta name="theme-color" content="#38a4ab">
-    <meta name="description" content="Andre Christoga's public websites.">
-    <meta name="author" content="Andre Christoga">
-  	<title>Andre Christoga</title>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-70797817-1', 'christoga.github.io');
-    ga('send', 'pageview');
-    </script>
-  	<link rel="stylesheet" href="css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
-    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<html>
+<head>
+  <title>Andre Christoga</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/material.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
- <div class="container">
-   <div class="page-header">
-      <h1 class="text-center"><a href="http://christoga.github.io"><span class="blue">Andre</span> <span class="black">Christoga</span></a><br><a href="http://christoga.github.io/blog"><span class="black">Visit My</span> <span style="color:#0091EA;">Blog</span></a></h1>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Andre Christoga</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Home</a>
+          <a class="mdl-navigation__link" href="about.html">About</a>
+          <a class="mdl-navigation__link" href="/blog">Article</a>                    
+          <a class="mdl-navigation__link" href="lab.html">Lab</a>                    
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Andre Christoga</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Home</a>
+        <a class="mdl-navigation__link" href="about.html">About</a>
+        <a class="mdl-navigation__link" href="/blog">Article</a>
+        <a class="mdl-navigation__link" href="lab.html">Lab</a>                    
+      </nav>
     </div>
+    <main class="mdl-layout__content">      
+      <center>
+        <div class="header">
+          <h2>I'm a front-end developer</h2>
+          <h5>
+            Andre Christoga - a web & hybrid developer, open source contributor, Javascript fanboy
+          </h5>
+        </div>              
+        <div class="social">
+          <button class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="fa fa-facebook"></i>
+          </button>
+          <button class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="fa fa-twitter"></i>
+          </button>
+          <button class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="fa fa-instagram"></i>
+          </button>           
+          <button class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="fa fa-github"></i>
+          </button>
+        </div>
+      </center>
+    </main>
   </div>
-    <div class="hero-unit">
-        <div style="height:150px;">
-            <h1>Whats up dude? </h1>
-            <h4>I'm a front-end developer based on Jakarta,<br> I'm not a nerd or a geek,<br> I'm just a person who write code and have fun with it.</h4>
-        </div>
-    </div>
-    <div class="col-md-6">
-    <div class="badge">JS</div>
-      <h3>Razor</h3>
-      <p>A hacker message framework.</p>
-      <div class="btn-group">
-      <a href="https://github.com/christoga/razor" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a> <a href="http://christoga.github.io/razor" type="button" class="btn btn-info" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Demo</a>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-    <div class="badge">JS</div>
-      <h3>Midas</h3>
-      <p>Simple iframe browser using jQuery.</p>
-      <div class="btn-group">
-      <a href="https://github.com/christoga/midas" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a> <a href="http://christoga.github.io/midas" type="button" class="btn btn-info" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Demo</a>
-    </div>
-    </div>
-
-    <div class="col-md-6">
-    <div class="badge">JS</div>
-      <h3>SVG-Ripples</h3>
-      <p>Google Material Design Ripple Effect with SVG</p>
-      <div class="btn-group">
-      <a href="https://github.com/christoga/svg-ripples" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a> <a href="http://christoga.github.io/svg-ripples" type="button" class="btn btn-info" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Demo</a>
-    </div>
-    </div>
-
-    <!-- <div class="col-md-6">
-    <div class="badge">JS</div>
-      <h3>TimeJS</h3>
-      <p>Simple script that will display your location, time and others...</p>
-      <div class="btn-group">
-      <a href="https://github.com/christoga/timejs" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a> <a href="http://christoga.github.io/timejs/" type="button" class="btn btn-info" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Demo</a>
-    </div>
-    </div> -->
-
-    <div class="col-md-6">
-    <div class="badge">CSS</div>
-      <h3>Roboto</h3>
-      <p>Responsive robot theme.</p>
-      <div class="btn-group">
-      <a href="https://github.com/christoga/roboto" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a> <a href="http://christoga.github.io/roboto/" type="button" class="btn btn-info" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Demo</a>
-    </div>
-    </div>
-
-    <div class="col-md-6">
-    <div class="badge">JS</div>
-      <h3>MDL-Email</h3>
-      <p>Send input value to firebase using MDL</p>
-      <div class="btn-group">
-      <a href="http://codepen.io/andrechristoga/full/LGJQbB/" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Demo</a>
-    </div>
-    </div>
-
-    <div class="col-md-6">
-    <div class="badge">JS</div>
-      <h3>Japs</h3>
-      <p>jQuery app download script.</p>
-      <div class="btn-group">
-      <a href="https://github.com/christoga/japs" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a>
-    </div>
-    </div>
-    
-    <div class="col-md-6">
-    <div class="badge" style="background-color:#2196F3;">Go</div>
-      <h3>Gocurl</h3>
-      <p>Curl in go</p>
-      <div class="btn-group">
-      <a href="https://github.com/codingsmartschool/gocurl" type="button" class="btn btn-default" style="background-color:#2196F3;color:#fff;border-color:#2196F3;" target="_blank">Source</a>
-    </div>
-    </div>
-
-    <div class="col-md-6">
-    <div class="badge" style="background-color:#2196F3;">Python</div>
-      <h3>Sepvey</h3>
-      <p>Python HTTP Server</p>
-      <div class="btn-group">
-      <a href="https://github.com/codingsmartschool/sepvey" type="button" class="btn btn-default" style="background-color:#2196F3;color:#fff;border-color:#2196F3;" target="_blank">Source</a>
-    </div>
-    </div>
-
-    <div class="col-md-6">
-    <div class="badge" style="background-color:#2196F3;">Python</div>
-      <h3>Vert</h3>
-      <p>Variable equation script</p>
-      <a href="https://github.com/codingsmartschool/vert" type="button" class="btn btn-default" style="background-color:#2196F3;color:#fff;border-color:#2196F3;" target="_blank">Source</a>
-    </div>
-    
-    <div class="col-md-6">
-    <div class="badge" style="background-color:#2196F3;">Python</div>
-      <h3>PyMaIn</h3>
-      <p>Python Math Input</p>
-      <a href="https://github.com/codingsmartschool/pymain" type="button" class="btn btn-default" style="background-color:#2196F3;color:#fff;border-color:#2196F3;" target="_blank">Source</a>
-    </div>
-
-    <!-- <div class="col-md-6">
-    <div class="badge">PHP</div>
-      <h3>Math-PHP</h3>
-      <p>Math collection.</p>
-      <a href="https://github.com/christoga/math-php" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a>
-    </div> -->
-
-</div>
-    <!-- <div class="col-md-6">
-    <div class="badge">PHP</div>
-      <h3>Dax</h3>
-      <p>Simple script like that will say hello to you</p>
-      <a href="https://github.com/christoga/dax" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a>
-    </div>
-
-</div> -->
-    <!-- <div class="col-md-6">
-    <div class="badge">PHP</div>
-      <h3>Judgers</h3>
-      <p>A script that will judge you if you dont insert the number it wants</p>
-      <a href="https://github.com/christoga/judgers" type="button" class="btn btn-default" style="background-color:#009688;color:#fff;border-color:#009688;" target="_blank">Source</a>
-    </div> -->
-
-</div>
-</div>
-    <!-- <div class="clearfix"></div>
-    <div class="jumbotron">
-      <h2>Project's i'm working on.</h2>
-    <div class="row" align="center">
-      <div class="col-md-6">
-        <h2>Cepat Sembuh</h2>
-        <iframe src="https://ghbtns.com/github-btn.html?user=christoga&repo=cepatsembuh&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-      </div>
-      <div class="col-md-6">
-        <h2>Todo</h2>
-      <iframe src="https://ghbtns.com/github-btn.html?user=christoga&repo=todo&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-      </div>
-      </div>
-    </div>
-    <div class="clearfix"></div>
-    </div> -->
-    <div class="space"></div>
-            <div class="row page-header" id="about-me">
-                <div class="col-md-4 col-sm-6 service">
-                    <i class="fa fa-laptop"></i>
-                    <h4><strong>Coder</strong></h4>
-                    <p>I'm a Frontend developer that use to code HTML, CSS and JS.</p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 service">
-                    <i class="fa fa-mobile"></i>
-                    <h4><strong>Developer</strong></h4>
-                    <p>I'm a front end developer that can build & develop apps using <br><a href="http://phonegap.com" title="Phonegap" target="_blank">Phonegap</a> and <a href="http://cordova.io" title="Cordova" target="_blank">Cordova</a></p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 service">
-                    <i class="fa fa-briefcase"></i>
-                    <h4><strong>Available</strong></h4>
-                    <p>I am available to hire! <br>Contact me at: <a href="mailto:andre.christoga@gmail.com">andre.christoga@gmail.com</a></p>.
-                </div>
-            </div>
-  
-    <div class="skills">
-      <h2>My Skills</h2>
-        <div class="col-md-3">
-         <i class="fa fa-html5 fa-5x"></i>
-         <h3>HTML</h3> 
-        </div>
-        <div class="col-md-3">
-          <i class="fa fa-css3 fa-5x"></i>
-          <h3>CSS</h3> 
-        </div>
-        <div class="col-md-3">
-          <i class="fa fa-code fa-5x"></i>
-          <h3>Javascript</h3>
-        </div>
-        <div class="col-md-3">
-          <i class="fa fa-terminal fa-5x"></i>
-          <h3>Python</h3>
-        </div>
-      <canvas id="skills" width="250" height="250"></canvas>      
-    </div>
-    <!-- <hr>
-       <div class="location" align="center">
-      <h3>I currently living in Kelapa Gading, DKI Jakarta, Indonesia</h3> <br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7933.656720616057!2d106.91619089999999!3d-6.1537371000000025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698acc410ed719%3A0x87195a50598a8260!2sJl.+Raya+Pegangsaan+Dua%2C+Klp.+Gading%2C+Kota+Jkt+Utara%2C+Daerah+Khusus+Ib%2C+Indonesia!5e0!3m2!1sen!2sid!4v1452184006738" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div> -->
-    <div class="warn">
-      <center><h1>All Projects Are Open Source!</h1></center>
-      <p style="text-align:center;">*All of the project are licensed under MIT.</p>
-    </div>
-
-  <div class="footer" align="center">
-    <ul class="list-inline">
-      <li><a href="https://www.facebook.com/andrechristoga" target="_blank" class="facebook">Facebook</a></li> |
-      <li><a href="https://twitter.com/andrechristoga" target="_blank" class="twitter">Twitter</a></li> | <li><a href="https://instagram.com/andrechristoga" target="_blank" class="instagram">Instagram</a></li> |
-      <li><a href="https://stackoverflow.com/users/5453531/andre-christoga" target="_blank" class="stack-overflow">Stack Overflow</a></li> |
-      <li><a href="https://github.com/christoga" target="_blank" class="github">GitHub</a></li> |
-      <li><a href="https://id.linkedin.com/in/andrechristoga" target="_blank" class="linkedin">LinkedIn</a></li>
-    </ul>
-     <p>&copy; 2015-2016 Andre Christoga </p>
-
-    </div>
-  	<script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/material.min.js"></script>
 </body>
 </html>

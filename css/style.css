@@ -11,7 +11,7 @@ body {
 	border-radius: 4px;
 }
 .demo-layout-transparent { 
-  background: url('../img/material.jpg') center / cover;
+  background: url('../img/background.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {  
@@ -28,7 +28,7 @@ body {
 .repo > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('../img/material.jpg') center / cover;
+  background: url('../img/background.jpg') center / cover;
 }
 .repo > .mdl-card__menu {
   color: #fff;

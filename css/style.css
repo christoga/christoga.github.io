@@ -2,7 +2,7 @@ body {
 	color: white;
 }
 .header {
-	margin-top: 50px;		
+	margin-top: 50px;
 }
 .header-img {
 	margin: 150, 1500, 150, 1500;
@@ -10,19 +10,19 @@ body {
 	height: 250px;
 	border-radius: 4px;
 }
-.demo-layout-transparent { 
+.demo-layout-transparent {
   background: url('../img/background.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {  
+.demo-layout-transparent .mdl-layout__drawer-button {
   color: white;
 }
 .repo.mdl-card {
- margin-top: 50px; 
+ margin-top: 50px;
 }
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 320px) {
 	.header-img {
-		width: 350px !important;
+		width: 320px !important;		
 	}
 }
 .repo > .mdl-card__title {

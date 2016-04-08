@@ -32,6 +32,19 @@ body {
 	height: 200px;
 	background: #3E4EB8;
 }
+
+.py.demo-card-event.mdl-card {
+	width: 200px;
+	height: 200px;
+	background: #0D47A1;
+}
+
+.js.demo-card-event.mdl-card {
+	width: 200px;
+	height: 200px;
+	background: #FFB300;
+}
+
 .demo-card-event > .mdl-card__actions {
 	border-color: rgba(255, 255, 255, 0.2);
 }

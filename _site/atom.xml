@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title></title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2016-08-05T21:34:34+07:00</updated>
+ <id></id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Scribe</title>
+   <link href="/2016/06/16/scribe.html"/>
+   <updated>2016-06-16T00:00:00+07:00</updated>
+   <id>/2016/06/16/scribe</id>
+   <content type="html">&lt;p&gt;A WordPress theme that excels as a writing tool. Built with &lt;a href=&quot;http://underscores.me/&quot;&gt;_s&lt;/a&gt;, &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;, and Sass.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Phantom</title>
+   <link href="/2016/05/06/phantom.html"/>
+   <updated>2016-05-06T00:00:00+07:00</updated>
+   <id>/2016/05/06/phantom</id>
+   <content type="html">&lt;p&gt;A minimalist, responsive portfolio theme for Jekyll with Bootstrap.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grocery Store Monopoly Exchange</title>
+   <link href="/2016/05/05/grocery-store-monopoly-exchange.html"/>
+   <updated>2016-05-05T00:00:00+07:00</updated>
+   <id>/2016/05/05/grocery-store-monopoly-exchange</id>
+   <content type="html">&lt;p&gt;A SPA that lists a directory of user inputed tickets from the grocery store Monopoly game to facilitate exchanges with friends &amp;amp; family built with JavaScript and Angular.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Calculator</title>
+   <link href="/2016/05/04/calculator.html"/>
+   <updated>2016-05-04T00:00:00+07:00</updated>
+   <id>/2016/05/04/calculator</id>
+   <content type="html">&lt;p&gt;A functional calculator that can perform basic operations built with JavaScript, jQuery, &amp;amp; Sass&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Simon Game</title>
+   <link href="/2016/05/03/simon-game.html"/>
+   <updated>2016-05-03T00:00:00+07:00</updated>
+   <id>/2016/05/03/simon-game</id>
+   <content type="html">&lt;p&gt;The classic memory game built with JavaScript, jQuery, &amp;amp; Sass.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

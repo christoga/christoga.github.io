@@ -1,33 +1,114 @@
----
-layout: default
-title: Home
----
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<!DOCTYPE html>
+<html lang="en">
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Andre Christoga">
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+  <title>
+    
+      Andre Christoga
+    
+  </title>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/foundation.min.css">
+</head>
+
+
+  <body>
+
+    <div class="row">
+      <div class="large-12 large-centered columns">
+
+        <header class="masthead">
+          <img src="img/me.png" alt="Andre Christoga">
+        </header>
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="large-6 large-offset-3 columns">
+
+      <div class="content-section">
+
+        <p>
+Hello, there. I’m <strong>Christo</strong>. I’m a hybrid/front-end developer from Jakarta. 
+        </p>
+
+        <p>
+In my spare time I like to <a href="http://christo.js.org/blog">write</a>, watch some <a href="https://gaming.youtube.com">fifa gaming</a> and play <a href="https://clashroyale.com/">clash royale</a> & <a href="https://www.pokemongo.com">pokémon go</a>.
+        </p>
+
+        <p>
+I’m currently busy working at a <strong>health portal</strong>.
+        </p>
+
+      </div>
+
+      <!-- <main>
+        <h2>Latest Work</h2>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/scribe">Scribe</a></h3>
+            <p>A WordPress theme that excels as a writing tool. Built with <a href="http://underscores.me/">_s</a>, <a href="http://foundation.zurb.com/">Foundation</a>, and Sass.</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/phantom">Phantom</a></h3>
+            <p>A minimalist, responsive portfolio theme for Jekyll with Bootstrap.</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/monopoly-exchange">Grocery Store Monopoly Exchange</a></h3>
+            <p>A SPA that lists a directory of user inputed tickets from the grocery store Monopoly game to facilitate exchanges with friends &amp; family built with JavaScript and Angular.</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/calculator">Calculator</a></h3>
+            <p>A functional calculator that can perform basic operations built with JavaScript, jQuery, &amp; Sass</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/simon">Simon Game</a></h3>
+            <p>The classic memory game built with JavaScript, jQuery, &amp; Sass.</p>
+
+          </div>
+        
+      </main> -->
+
+      <footer>
+        <h2>Contact Me</h2>
+
+        <p>
+        Send me an <a href="mailto:andrechristoga@gmail.com?Subject=Hola, I saw your web">email</a> or ping me on <a href="https://twitter.com/andrechristoga">Twitter</a>. I’m also on <a href="https://github.com/christoga">Github</a>, <a href="https://plus.google.com/+AndreChristoga">Google+</a>, and <a href="https://www.linkedin.com/in/jami-gibbs-731985112
+">Linkedin</a> if you’re into that sort of thing.
+        </p>
+
+        <p class="copyright">
+          &copy; <time datetime="2016-06-16T21:41:48+00:00">2016</time>. All rights reserved.
+        </p>
+      </footer>
+
+    </div>
+
+    <div class="large-2 large-offset-1 columns social">
+      <ul>
+        <li><a href="http://christo.js.org"><i class="fa fa-pencil"></i></a></li>
+        <li><a href="https://twitter.com/andrechristoga"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://instagram.com/andrechristoga"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://github.com/christoga"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+
+  </div>  
+  </body>
+</html>
